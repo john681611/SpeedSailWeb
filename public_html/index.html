@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="favicons/manifest.json">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Speed Sail App</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css\font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/full-width-pics.css" rel="stylesheet">
+    <link href="css/half-slider.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a href="#use">Usage</a>
+                    </li>
+                    <li>
+                        <a href="#info">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header with Logo -->
+    <!-- Image backgrounds are set within the full-width-pics.css file. -->
+    <header id="myCarousel" class="carousel slide" style="background: url('Images/WideImage.png') no-repeat center center scroll;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" ><img class="img-responsive img-center" src="Images/SpeedSailv1.png" style="height:400px; width:400px; margin-top:20px;" alt="">
+            </div>
+          </div>
+            <div class="item ">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill"><img style="margin-left:43%;height:90%;" src="Images/realtime.png"></div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" ><img style="margin-left:43%;height:90%;" src="Images/balance.png"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" ><img style="margin-left:43%;height:90%;" src="Images/help.png"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" ><img style="margin-left:43%;height:90%;" src="Images/settings1.png"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" ><img style="margin-left:43%;height:90%;" src="Images/settings2.png"></div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    <!-- Content Section -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="section-heading">Speed Sail</h1>
+                    <p class="lead section-lead">A performance app for Performance Dinghys</p>
+                    <p class="section-paragraph">Any dinghy sailor knows that it’s a constant battle to keep performing at your max.
+                      Unfortunately, we can't tell how flat the boat really is, are you too far forward to back, what is our speed and how much did we lose in that tack?
+                      The SpeedSail app aims to break the tradition of guesswork and feeling by giving you real time information on:
+                      <ul>
+                        <li> Speed</li>
+                        <li> Heading</li>
+                        <li> Weather</li>
+                        <li> Balance</li>
+                        <li> Trim</li>
+                        <li> GPS Location </li>
+                      </ul>
+                      Improve your performance with the power of your smartphone, simply attach to your deck and configure the perfect balance.
+                      <!-- Half Page Image Background Carousel Header -->
+
+                      </p>
+                      <p class="lead section-lead">Not on the water?</p>
+                      <p class="section-paragraph">The race management module allows you to easily calculate your handicap race results on the fly. Add the contenders as and when you like (even mid race), Start and finish boats with a single press.
+                         Support DNF and lap differences for shortened races.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside class="image-bg-fixed-height"></aside>
+    <section id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="section-heading">Installation</h1>
+                    <p class="lead section-lead">Have a go at the latest build</p>
+                    <p class="section-paragraph">Born from a final year dissertation, SpeedSail has come a long way with the major functionality and screens in place.
+                       Unfortunately, due to the relatively short amount of development time available the app still has some bugs and some features may not work on your device.
+                        Development is planned to be as and when, the more interest in the app the more time I’ll put aside to improving it.
+                      <br/>
+                      For now, the app runs on Android and Blackberry OS 10 running in developer mode only and installation requires you to allow unknown source applications. To install just:
+                      <ol>
+                      <li> Download the app: <br>
+                      <a href="https://onedrive.live.com/download?cid=FE652B5A7DB6E026&resid=FE652B5A7DB6E026%2156345&authkey=ACXo2JKbSz_29Sg">Andorid</a> <br>
+                      <a href="https://onedrive.live.com/download?cid=FE652B5A7DB6E026&resid=FE652B5A7DB6E026%2156346&authkey=AK6-BelTV2MHKWE">Blackberry</a>
+                      </li>
+
+                      <li> Select and run the installation from your downloads</li>
+                      <li> That’s it the app should run on your device</li>
+                      </ol>
+
+                      </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside class="image-bg-fixed-height"></aside>
+    <section id="use">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                 <h1 class="section-heading">Using Speed Sail</h1>
+                  <p class="section-paragraph">
+                    <h3>Gauges</h3>
+                    Swipe left or Right on the screen to switch though the Gauges Available.<br/>
+                    Alternatively you can use <i class="fa fa-bars topIcon"></i> to access the side menu and select a Gauge.<br />
+                    Pressing any of the <i class="fa  fa-circle-o"></i>s will skip you around.
+                    <br />
+                    <br />
+                    <h4>Real Time</h4>
+                    The real time gauge is the Everyman screen. It shows heading at the top or on the compass dial, speed is textually in the centre of the screen and shown in scale by the coloured ring.
+                    Weather data is at the bottom of the screen with current forecast on the left, next forecast on the right and the time difference in the centre in hours and minutes.
+                    Wind direction is shown by the yellow arrow on the compass dial.
+                    Balance is the red dot moving around in the centre of the dial.
+                    <br />
+                    <h4>Balance</h4>
+                    Balance is shown using a red dot over a grid a red path is generated as your balance changes. This can be cleared using "Clear Trail" button.
+                    <br />
+                    <h4>Navigation</h4>
+                    With the support of Google maps you can see where you are in the world. Standard Google maps controls apply plus you can clear your path with the "Clear Trail" button.
+                    <br />
+                    <h4>Speed</h4>
+                    Your all in one speedometer. Speed is shown textually in the centre of the screen, with a colour changing gauge surrounding it. A graph has been provided to track changes in your speed.
+                    <br />
+                    <h3>Controls</h3>
+                   Controls can be accessed from any Gauge by pressing the "Controls" Text at the bottom of the screen.
+                    <br />
+                    <h4>Recording</h4>
+                    To start recording press the <i style="color:red;" class="fa  fa-circle-o"></i> by the controls text.
+                    <br />
+                    To stop recording press the red <i style="color:red;" class="fa  fa-circle"></i> by the controls text. You will then be prompted to save your recording by a notification in the top right.
+                    <br />
+                    <h4>Playback</h4>
+                    To select a previous recording simply select from the drop down box. The "Current" options simply shows current data.
+                    <br />
+                    Use the slider to navigate your recording.
+                    <br />
+                    Use the <i class="fa fa-play-circle"></i> & <i class="fa fa-pause-circle"></i> to play and pause the replay.
+                    <br />
+                    Skip to the start or end of the replay with <i class="fa fa-step-backward"></i><i class="fa fa-step-forward"></i>
+
+                    <h3>Race Management</h3>
+                    Built to help OD's run Handicap racing without all that maths.
+                    <br />
+                    <h4>Add A boat</h4>
+                    Pressing "Add Boat" button brings up the form to add a boat. Once done press "Add" to add a boat to the race. The form can be hidden by pressing the "Add Boat" button again.
+                    <br />
+                    <h4>Running a race</h4>
+                    If you don't know how to manually run a race please look it up <a href="http://www.rya.org.uk/SiteCollectionDocuments/technical/Web%20Documents/PY%20Documentation/PY-running%20races.pdf">here</a>
+                    <br />
+                    To start a race simply press the "Start Race" button, the start time is then calculated. If for some reason you need to restart the race you can use the "Reset" button.
+                    <br />
+                    The overall amount of laps to be raced is entered into the "Laps" box
+                    <br />
+                    Boats are finished individually by pressing "Finish" against the boat. If you make a mistake you can unfinished a boat with "Not Finished".
+                    <br />
+                    LD stands for lap difference, to be used if a boat has done more or less than the standard laps.
+                    <br />
+                    To DNF or remove a boat the options can be found under the <i class="fa fa-ellipsis-v"></i> button.
+
+                    <h3>Settings</h3>
+                    Settings can be accessed though the <i class="fa fa-bars topIcon"></i>button. Use this to configure the app to give data the way you want it.
+                    <br />
+                    You can also delete recordings from this screen.
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+</section>
+<aside class="image-bg-fixed-height"></aside>
+<section id="info">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="section-heading">Contact</h1>
+                <p class="lead section-lead">Contact the Dev for info</p>
+                <p class="section-paragraph">
+                  Name: John Harvey
+                  <a href="mailto:john681611@hotmail.com" target="_top">Send Mail</a>
+                  </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; John Harvey 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
